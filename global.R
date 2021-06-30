@@ -1,0 +1,12 @@
+library(shiny)
+library(shinydashboard)
+library(DT)
+library(shinyjs)
+library(sodium)
+#library(readr)
+library(dplyr)
+library(ggplot2)
+library(data.table)
+library(rsconnect)
+
+allData <- read.csv("allBaseballData.csv")
